@@ -69,7 +69,7 @@ public class ShooterSurface extends SurfaceView implements Runnable, OnTouchList
 		universe = new Universe(x,y,context);
 		holder = getHolder();
 		setOnTouchListener(this);
-		bigBack = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(),R.drawable.starfield), universe.getBoundX(), universe.getBoundY(), false);
+		bigBack = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(),R.drawable.ocean), universe.getBoundX(), universe.getBoundY(), false);
 		newback = Bitmap.createBitmap(universe.getBoundX(),universe.getBoundY(),Bitmap.Config.ARGB_8888);
 		shouldquit = false;
 	}

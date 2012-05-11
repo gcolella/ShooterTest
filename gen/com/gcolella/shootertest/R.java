@@ -28,10 +28,11 @@ public final class R {
         public static final int missile=0x7f02000e;
         public static final int missilepowerup=0x7f02000f;
         public static final int mystery=0x7f020010;
-        public static final int player=0x7f020011;
-        public static final int ship=0x7f020012;
-        public static final int sky=0x7f020013;
-        public static final int starfield=0x7f020014;
+        public static final int ocean=0x7f020011;
+        public static final int player=0x7f020012;
+        public static final int ship=0x7f020013;
+        public static final int sky=0x7f020014;
+        public static final int starfield=0x7f020015;
     }
     public static final class id {
         public static final int button1=0x7f050006;
